@@ -11,7 +11,7 @@ function machine(a, b) {
   } else if (input == "/") {
     output = a / b;
   } else {
-    output = alert("please enter a valid input");
+    output "please enter a valid input";
   }
   return output;
 }
